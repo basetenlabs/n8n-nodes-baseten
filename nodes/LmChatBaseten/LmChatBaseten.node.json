@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-baseten.lmChatBaseten",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["AI", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.baseten.co/api-reference/openai"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/basetenlabs/n8n-nodes-baseten#readme"
+			}
+		]
+	}
+}
