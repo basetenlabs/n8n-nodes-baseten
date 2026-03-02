@@ -24,12 +24,11 @@ n8n-nodes-baseten
 
 ## Usage
 
-The **Baseten Chat Model** node connects to any model available in the [Baseten model library](https://www.baseten.co/library/). Use it anywhere n8n accepts a chat model — e.g. the AI Agent node or Basic LLM Chain.
+The **Baseten Chat Model** node connects to any model available on Baseten. Use it anywhere n8n accepts a chat model — e.g. the AI Agent node or Basic LLM Chain.
 
-Set the **Model** field to the model slug, for example:
-- `meta-llama/Llama-3.3-70B-Instruct`
-- `deepseek-ai/DeepSeek-V3`
-- `mistralai/Mixtral-8x7B-Instruct-v0.1`
+Once your API key is saved, the **Model** dropdown auto-populates with all available models. You can also set it to a model slug directly using an [expression](https://docs.n8n.io/code/expressions/), for example `{{ "moonshotai/Kimi-K2.5" }}`.
+
+Find the full list of supported model slugs in the [Baseten model APIs documentation](https://docs.baseten.co/development/model-apis/overview).
 
 ## Resources
 
