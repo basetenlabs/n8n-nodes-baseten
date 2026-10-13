@@ -1,8 +1,8 @@
-# n8n-nodes-baseten
+# @basetenlabs/n8n-nodes-baseten
 
 An n8n community node for using [Baseten](https://baseten.co)-hosted chat models in your n8n workflows.
 
-Baseten is a model inference platform that supports the full OpenAI Chat Completions API, including structured outputs, tool calling, and streaming.
+The node calls Baseten's OpenAI-compatible Chat Completions endpoint for chat models served by Model APIs.
 
 [Installation](#installation) | [Credentials](#credentials) | [Usage](#usage) | [Resources](#resources)
 
@@ -13,7 +13,7 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 In your n8n instance, go to **Settings → Community Nodes** and install:
 
 ```
-n8n-nodes-baseten
+@basetenlabs/n8n-nodes-baseten
 ```
 
 ## Credentials
@@ -24,11 +24,11 @@ n8n-nodes-baseten
 
 ## Usage
 
-The **Baseten Chat Model** node connects to any model available on Baseten. Use it anywhere n8n accepts a chat model — e.g. the AI Agent node or Basic LLM Chain.
+Use the **Baseten Chat Model** node with a chat model served by Model APIs. Connect it to an AI Agent node or a Basic LLM Chain in your workflow.
 
-Once your API key is saved, the **Model** dropdown auto-populates with all available models. You can also set it to a model slug directly, for example `{{ "moonshotai/Kimi-K2.5" }}`.
+Once your API key is saved, the **Model** dropdown auto-populates with all available models. You can also set it to a model slug directly, for example `{{ "zai-org/GLM-5.3" }}`.
 
-Find the full list of supported model slugs in the [Baseten Model APIs documentation](https://docs.baseten.co/development/model-apis/overview).
+Find the full list of supported model slugs in the [Baseten Model APIs documentation](https://docs.baseten.co/inference/model-apis/overview).
 
 ## Resources
 
