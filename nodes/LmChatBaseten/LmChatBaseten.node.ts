@@ -27,7 +27,7 @@ export class LmChatBaseten implements INodeType {
 			resources: {
 				primaryDocumentation: [
 					{
-						url: 'https://docs.baseten.co/api-reference/openai',
+						url: 'https://docs.baseten.co/reference/inference-api/chat-completions',
 					},
 				],
 			},
